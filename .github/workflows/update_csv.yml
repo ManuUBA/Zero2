@@ -28,4 +28,4 @@ jobs:
         run: |
           git add *.csv
           git diff --cached --quiet || git commit -m "Actualizar CSV desde Google Sheets"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ManuUBA/Horarios-zero.git HEAD:main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ManuUBA/Zero2.git HEAD:main
